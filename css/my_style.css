@@ -1,0 +1,96 @@
+body{
+    background-color: #3d3651
+}
+.form_wizard{
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.form_wizard header{
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+.form_wizard header .steps_liste_view .item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center
+}
+.form_wizard header .steps_liste_view .item + .item{
+    border-left: #e4e4e4 1px solid
+}
+.form_wizard header .steps_liste_view .item img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block
+}
+.form_wizard section{
+    background-color: #574b76;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form_wizard section .form_item label{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white
+}
+.form_wizard section .form_item .form-control{
+    margin-bottom: 20px;
+    height: 50px
+}
+.form_wizard section .form_item + .form_item{
+    display: none
+}
+.form_wizard footer input{
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    margin: 10px
+}
+.form_wizard footer{
+    background-color: #574b76;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.form_wizard footer .pre_btn{
+    background-color: gray;
+    color: white
+}
+.form_wizard footer .nxt_btn{
+    background-color: green;
+    color: white;
+    margin-right: 30px
+}
+.form_wizard section .form_confirm_information table{
+    width: 100%;
+    margin-top: 25px;
+    background-color: #685d84;
+    border-radius: 15px
+}
+.form_wizard section .form_confirm_information table tr{
+    height: 60px;
+}
+.form_wizard section .form_confirm_information table tr + tr{
+    border-top: #ccc 1px solid
+}
+.form_wizard section .form_confirm_information table tr td + td{
+    border-left: #ccc 1px solid;
+    width: 80%;
+}
+.form_wizard section .form_confirm_information table tr td{
+    padding: 15px;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+}
+@media(max-width: 950px){
+    
+}
